@@ -2,6 +2,17 @@
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
+  width: 100vw;
+}
+
+.container {
+  display: flex;
+  width: 80vw;
+  height: fit-content;
+  background-color: transparent;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  column-gap: 2px;
 }
 
 .App {

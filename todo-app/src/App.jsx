@@ -1,15 +1,15 @@
 import './App.css'
-import Task from './Task'
+import { Routes, Route } from 'react-router-dom'
+import Home from './Home'
 
 function App() {
 
   return (
-    <div className='App'>
-      <h1>Hello</h1>
-      <h3>Welcome to my todo app</h3>
-      <Task title="Apply to job" description="Write cover letter, contact hiring manager." />
-      <Task title="Catch up on lectures" description="Missing 2 lectures for x module" />
-    </div>
+    <>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes >
+    </>
   )
 }
 
